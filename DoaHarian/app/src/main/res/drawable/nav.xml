@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Warna latar belakang kotak -->
+    <item android:top="2dp"> <!-- Mulai setelah garis hitam -->
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/white"/> <!-- Ganti dengan warna latar belakang yang diinginkan -->
+        </shape>
+    </item>
+
+</layer-list>

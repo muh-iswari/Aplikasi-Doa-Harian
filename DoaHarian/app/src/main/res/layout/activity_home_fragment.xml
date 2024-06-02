@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.FavoriteFragment"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@drawable/atas4">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/doa_harian"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="55dp"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+
+            <LinearLayout
+                android:layout_width="360dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/seach"
+                android:gravity="center_vertical">
+
+                <EditText
+                    android:id="@+id/et_search"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:hint="Cari doa harian..."
+                    android:imeOptions="actionSearch"
+                    android:inputType="text"
+                    android:textSize="14dp"
+                    android:paddingLeft="20dp"/>
+
+            </LinearLayout>
+
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_doa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+                tools:itemCount="8"
+                tools:listitem="@layout/doa_item"/>
+
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:indeterminateTint="@color/biru"
+            android:visibility="gone"/>
+
+
+        <LinearLayout
+            android:id="@+id/LL_No_Internet"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/no_internet_image"
+                android:layout_width="200dp"
+                android:layout_height="140dp"
+                android:layout_gravity="center"
+                android:src="@drawable/no_internet" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tidak ada jaringan internet"/>
+
+            <!-- Button for Retry -->
+            <Button
+                android:id="@+id/retry_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="@string/coba_lagi"
+                android:backgroundTint="@color/biru"/>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        layout="@layout/navigator" />
+
+</LinearLayout>

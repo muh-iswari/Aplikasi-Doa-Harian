@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="dark_custom">#FFC78B</color>
+    <color name="custom">#E3EAFF</color>
+    <color name="warna_bg">#F7F8EF</color>
+    <color name="ungu">#402D5B</color>
+    <color name="biru">#628EFF</color>
+    <color name="biru_muda">#E3EAFF</color>
+    <color name="biru_sedang">#A5BEFF</color>
+    <color name="kuning">#FFF2A2</color>
+</resources>

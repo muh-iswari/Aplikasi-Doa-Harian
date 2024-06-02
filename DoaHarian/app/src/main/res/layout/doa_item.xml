@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="360dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/item"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:layout_marginBottom="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/doaTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nama_doa_harian"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/biru"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/ayatTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tulisan arabnya"
+            android:gravity="end"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

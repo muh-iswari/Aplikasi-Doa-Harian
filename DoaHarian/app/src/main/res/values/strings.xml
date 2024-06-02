@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Doa Harian</string>
+    <string name="nama_doa_harian">Nama Doa Harian</string>
+    <string name="doa_harian">Doa Harian</string>
+    <string name="favorit">Favorit</string>
+    <string name="pengaturan">Pengaturan</string>
+    <string name="tentang">Tentang</string>
+    <string name="doa_harian_adalah_aplikasi_yang_menghimpun_doa_doa_harian_yang_sering_dibaca_oleh_umat_islam_aplikasi_ini_diharapkan_dapat_memberikan_manfaat_besar_bagi_umat_dan_mampu_membantu_kita_menuju_kebaikan">Doa Harian adalah aplikasi yang menghimpun doa-doa harian yang sering dibaca oleh umat islam. Aplikasi ini diharapkan dapat memberikan manfaat besar bagi umat dan mampu membantu kita menuju kebaikan.</string>
+    <string name="doa_favorit">Doa Favorit</string>
+    <string name="coba_lagi">Coba Lagi</string>
+</resources>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/atas3">
+
+        <ImageView
+            android:id="@+id/backButton"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:src="@drawable/baseline_arrow_back_ios_24"
+            android:layout_gravity="center_vertical"/>
+
+    </LinearLayout>
+
+  <TextView
+      android:id="@+id/titleTextView"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Judul Doa"
+      android:textSize="22sp"
+      android:textStyle="bold"
+      android:layout_marginTop="15dp"
+      android:layout_marginLeft="15dp"
+      android:layout_marginRight="15dp"
+      android:layout_marginBottom="20dp"
+      android:padding="10dp"
+      android:textColor="@color/biru"
+      android:gravity="center_horizontal"/>
+
+  <TextView
+      android:id="@+id/ayatTextView"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="ayatnya"
+      android:textSize="28sp"
+      android:layout_marginRight="15dp"
+      android:layout_marginLeft="15dp"
+      android:layout_marginBottom="10dp"
+      android:gravity="center_horizontal"/>
+
+  <TextView
+      android:id="@+id/latinTextView"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="latinnya"
+      android:textColor="@color/biru"
+      android:textSize="16sp"
+      android:layout_marginRight="20dp"
+      android:layout_marginLeft="20dp"
+      android:layout_marginBottom="10dp"
+      android:gravity="center_horizontal"/>
+
+  <TextView
+      android:id="@+id/artinyaTextView"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:textSize="16sp"
+      android:text="artinya"
+      android:layout_marginRight="20dp"
+      android:layout_marginLeft="20dp"
+      android:layout_marginBottom="10dp"
+      android:gravity="center_horizontal"/>
+
+
+
+    <LinearLayout
+        android:id="@+id/favoriteButton"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginLeft="20dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/custom"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/favoriteText"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Tambah ke Favorit"
+            android:textStyle="bold"
+            android:layout_marginRight="10dp"
+            android:gravity="center"/>
+
+        <ImageView
+            android:id="@+id/favoriteIcon"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/fav"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+</LinearLayout>
