@@ -13,6 +13,7 @@ Diharapkan Doa Harian dapat memberikan manfaat besar bagi umat Islam, baik yang 
 
 
 **CARA PENGGUNAAN**
+
 Sama seperti aplikasi lain yang menampilkan daftar berupa list, aplikasi Doa Harian, sangat mudah digunakan. 
 - Kita hanya perlu menghubungkan handphone kita dengan interbet.
 - Setelah itu membuka aplikasi Doa Harian untuk selanjutnya mencari doa yang diinginkan, pencarian dapat dilakukan manual maupun dengan menggunakan fitur pencarian.
